@@ -1,46 +1,44 @@
-title: Addicted to R
-tagline: "academic/hacker"
-theme: "09"
+title: SociocaRtography
+tagline: "R Machine Learning GIS"
+theme: "08"
 reverse: False
 description: >
-  I am a professor of operations management, addicted to R and data visualization.
+  Semantics and Syntaxes.
 
-url: "http://ramnathv.github.io/"
-author:
-  name: "Ramnath Vaidyanathan"
-  github: "ramnathv"
-  twitter: "ramnath_vaidya"
+url: "http://parthkhare.github.io/"
+author: "ramnathv.github.io"
+  name: "Parth Khare"
+  github: "parthkhare"
+  format: "parthkhare"
 
 sidebar:
-  - {item: Research, href: '/research', icon: 'cogs'}
-  - {item: Publications, href: '/publications', icon: 'pencil-square'}
-  - {item: Projects, href: '/projects', icon: 'puzzle-piece'}
-  - {item: Software, href: '/software', icon: 'code'}
+  - {item: Urban Sciences, href: '/urban-sciences', icon: 'building-o'}
+  - {item: Machine Learning, href: '/machine-learning', icon: 'cogs'}
+  - {item: R-Utlity Kit, href: '/r-blog', icon: 'rocket'}
+  - {item: Photography, href: 'https://parthkhare.format.com/', icon: 'camera-retro'}
   - {item: Blog, href: '/blog', icon: 'archive'}
 
 
 projects:
-  - {title: "Visualizing Bike Sharing Networks", 
-     url: "http://slidify.github.io/dcmeetup/demo/bikeshare",
-     thumbnail: 'citibikes.png'
+  - {title: "Delhi Crime Voronoi", 
+     url: "https://parthakhare.carto.com/viz/8c4d97e0-6510-11e6-ad84-0ef24382571b/embed_map/",
+     thumbnail: 'dlcrdb.png'
     }
-  - {title: "Animated Choropleths",
-     url: "http://rmaps.github.io/blog/posts/animated-choropleths/index.html",
-     thumbnail: "animated-choropleths.png"
+  - {title: "Delhi Crime Shiny",
+     url: "https://sociocartography.shinyapps.io/DelhiCrime/",
+     thumbnail: "dlcrsh.png"
     }
-  - {title: Visualizing Medal Tally at Sochi,
-  	 url: "http://ramnathv.ocpu.io/sochi/www/",
-  	 thumbnail: "sochi.png"
+  - {title: India Crime NCRB,
+  	 url: "https://sociocartography.shinyapps.io/SociocaRtography/",
+  	 thumbnail: "incrsh.png"
   	}
-  - {title: Online Playground for rCharts,
-     url: "http://rcharts.io/playground",
-     thumbnail: "rcharts.png"
+
+blog
+  - {title: R Utility Kit,
+     url: "https://rutilitykit.wordpress.com/about/",
     }
-  - {title: 100 Centuries of Sachin Tendulkar,
-  	 url: 'http://ramnathv.github.io/sachin100s/',
-  	 thumbnail: 'sachin.png'
-    }
-  - {title: Interactive Controls with rCharts,
-     url: 'http://rcharts.io/icontrols',
-     thumbnail: 'icontrols.png'
+
+presentation
+  - {title: Decision Tree 101,
+  	 url: 'http://www.slideshare.net/parthkhare/machine-learning-basics-trees-algrorithm-random-forest-gbm/',
     }
