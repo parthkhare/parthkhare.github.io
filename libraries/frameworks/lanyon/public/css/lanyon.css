@@ -264,7 +264,7 @@ a.sidebar-nav-item:focus {
  */
 
 .wrap,
-.sidebar,
+/*.sidebar,*/
 .sidebar-toggle {
     -webkit-backface-visibility: hidden;
        -moz-backface-visibility: hidden;
