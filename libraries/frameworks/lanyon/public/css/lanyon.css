@@ -41,12 +41,12 @@ body {
 }
 
 html {
-  font-family: "Segoe UI";
+  font-family: "Segeo UI", "Gentium Book Basic", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Segoe UI";
-  font-weight: 400;
+/*  font-family: "Segeo UI","PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400; */
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  /* border-bottom: 1px solid #eee; */
+  border-bottom: 1px solid #eee;
 }
 .masthead-title {
   margin-top: 0;
@@ -140,21 +140,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 /* Style and "hide" the sidebar */
-
-#sidebar {
-	left: 0;
-	visibility: visible;
-}
 .sidebar {
+  display: block;
   position: fixed;
   top: 0;
   bottom: 0;
   left: -14rem;
   width: 14rem;
   /*visibility: hidden;*/
- /*  visibility: visible; */
-  /*display: block;  */
   overflow-y: auto;
+  /* font-family: Menlo, Monaco, "Courier New", monospace; */
   font-family: "Segoe UI";
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
@@ -215,7 +210,7 @@ a.sidebar-nav-item:focus {
   position: absolute;
   top:  1rem;
   left: 1rem;
-  /*display: block;*/
+  display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
   color: #505050;
@@ -224,7 +219,7 @@ a.sidebar-nav-item:focus {
   cursor: pointer;
 }
 .sidebar-toggle:before {
-  /* display: block; */
+  display: block;
   content: "";
   width: 100%;
   padding-bottom: .125rem;
@@ -270,12 +265,12 @@ a.sidebar-nav-item:focus {
  */
 
 .wrap,
-.sidebar,
+/*.sidebar,*/
 .sidebar-toggle {
-    /* -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
        -moz-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
-            backface-visibility: hidden; */
+            backface-visibility: hidden;
   -webkit-perspective: 1000;
      -moz-perspective: 1000;
       -ms-perspective: 1000;
@@ -295,10 +290,10 @@ a.sidebar-nav-item:focus {
           transition: left .3s ease-in-out;
 }
 
-/* #sidebar-checkbox:checked + .sidebar {
+#sidebar-checkbox:checked + .sidebar {
   left: 0;
   visibility: visible;
-} */
+}
 #sidebar-checkbox:checked ~ .wrap {
   left: 14rem;
 }
@@ -372,7 +367,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Segoe UI";
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -565,7 +560,7 @@ div.tags .label {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
-  font-family: "Segoe UI";
+  font-family: "PT Sans";
 }
 div.tags .label[href]:hover,
 div.tags .label[href]:focus {
