@@ -204,7 +204,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 0;
+  margin: 0 0 1rem;
   border-radius: 5px;
 }
 
@@ -261,13 +261,10 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  /* padding-left:  1rem; */
+  padding-left:  1rem;
   padding-right: 1rem;
-  /*margin-left:  auto; */
-  margin-left:  385px;
-  /*margin-right: auto;*/
-  margin-right: 150px;
-  text-align: justify;
+  margin-left:  auto;
+  margin-right: auto;
 }
 
 
@@ -366,7 +363,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Segoe UI";
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
