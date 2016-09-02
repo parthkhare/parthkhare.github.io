@@ -43,13 +43,14 @@ body {
 html {
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: "Segoe UI";
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
 /*  font-family: "Segeo UI","PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400; */
+  font-family: "Segoe UI";
   color: #313131;
   letter-spacing: -.025rem;
 }
