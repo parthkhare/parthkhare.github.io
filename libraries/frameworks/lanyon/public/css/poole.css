@@ -267,6 +267,7 @@ tbody tr:nth-child(odd) th {
   margin-left:  385px;
   /*margin-right: auto;*/
   margin-right: 150px;
+  text-align: justify;
 }
 
 
