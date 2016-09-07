@@ -50,7 +50,7 @@ body {
 html {
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: "Segoe UI";
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 @media (min-width: 38rem) {
@@ -204,7 +204,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  margin: 0 0 0;
   border-radius: 5px;
 }
 
@@ -261,9 +261,10 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
+  /* padding-left:  1rem; */
   padding-right: 1rem;
-  margin-left:  auto;
+  margin-left:  410px;
+  /* margin-left: auto; */
   margin-right: auto;
 }
 
@@ -363,7 +364,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI";
   color: #ccc;
   text-align: center;
 }
