@@ -41,7 +41,11 @@
     <!------------------------------------------- Toggleable sidebar --------------------------------------  -->
     <div class="sidebar" id="sidebar">
       <div class="sidebar-item">
-        <p> Semantics and Syntaxes </p> 
+       <img src="../images/menu-icon-white.png" class="menu-icon-inner" />
+          <br />
+          <br />
+
+          <br />
       </div>
     
       <nav class="sidebar-nav">
@@ -84,7 +88,7 @@
     <!------------------------------------------- Fixed: Masthead -------------------------------------------------  -->
       <div class="masthead">
         <div class="container">
-           <label for="sidebar-checkbox" class="sidebar-toggle">  </label> <!--FOR SLIDER -->
+              <img src="images/menu-icon-red.png" class="menu-icon" /> <!--FOR SLIDER -->
 
           <h3 class="masthead-title">
             <a href="/" title="Home">SociocaRtography</a>
@@ -174,7 +178,23 @@
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(t, s);
     })();
-  </script>  </body>
+  </script> 
+  
+    <script>
+          $(".menu-icon").click(function () {
+              $('#sidebar').css("visibility", "visible");
+             // alert('hello');
+          });
+      </script>
+      <script>
+    $(".menu-icon-inner").click(function () {
+        $('#sidebar').css("visibility", "hidden");
+        //alert('hello');
+    });
+      </script>
+
+  
+  </body>
   <!-- Load Javascripts for Widgets -->
   
   <!-- LOAD HIGHLIGHTER JS FILES -->
