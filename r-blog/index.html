@@ -167,14 +167,13 @@
     })();
   </script> 
       <script>
-          $(".menu-icon").click(function () {
-              $('#sidebar').css("visibility", "visible");
+        var xyz=jQuery.noConflict();
+          xyz(".menu-icon").click(function () {
+              xyz('#sidebar').css("visibility", "visible");
              // alert('hello');
           });
-      </script>
-      <script>
-    $(".menu-icon-inner").click(function () {
-        $('#sidebar').css("visibility", "hidden");
+        xyz(".menu-icon-inner").click(function () {
+        xyz('#sidebar').css("visibility", "hidden");
         //alert('hello');
     });
       </script>
